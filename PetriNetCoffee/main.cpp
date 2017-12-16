@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+#include "PetriNetCoffee.hpp"
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    PetriNetCoffee cm ;
+    cm.Run();
     return 0;
 }

@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		FA2B117F1FD5DD7D005A84EA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2B117E1FD5DD7D005A84EA /* main.cpp */; };
+		FA2B11871FD5DD8E005A84EA /* Arc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2B11851FD5DD8E005A84EA /* Arc.cpp */; };
+		FA2B118A1FD5DD9B005A84EA /* Locatie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA2B11881FD5DD9B005A84EA /* Locatie.cpp */; };
+		FA4EDAB31FD82BAA004CBC51 /* Tranzitie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4EDAB11FD82BAA004CBC51 /* Tranzitie.cpp */; };
+		FA4EDAB61FD9847B004CBC51 /* PetriNetCoffee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4EDAB41FD9847B004CBC51 /* PetriNetCoffee.cpp */; };
+		FA4EDAB91FD984D0004CBC51 /* Petri.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4EDAB71FD984D0004CBC51 /* Petri.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		FA2B117B1FD5DD7D005A84EA /* PetriNetCoffee */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PetriNetCoffee; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2B117E1FD5DD7D005A84EA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA2B11851FD5DD8E005A84EA /* Arc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arc.cpp; sourceTree = "<group>"; };
+		FA2B11861FD5DD8E005A84EA /* Arc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Arc.hpp; sourceTree = "<group>"; };
+		FA2B11881FD5DD9B005A84EA /* Locatie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Locatie.cpp; sourceTree = "<group>"; };
+		FA2B11891FD5DD9B005A84EA /* Locatie.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Locatie.hpp; sourceTree = "<group>"; };
+		FA4EDAB11FD82BAA004CBC51 /* Tranzitie.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tranzitie.cpp; sourceTree = "<group>"; };
+		FA4EDAB21FD82BAA004CBC51 /* Tranzitie.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tranzitie.hpp; sourceTree = "<group>"; };
+		FA4EDAB41FD9847B004CBC51 /* PetriNetCoffee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PetriNetCoffee.cpp; sourceTree = "<group>"; };
+		FA4EDAB51FD9847B004CBC51 /* PetriNetCoffee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PetriNetCoffee.hpp; sourceTree = "<group>"; };
+		FA4EDAB71FD984D0004CBC51 /* Petri.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Petri.cpp; sourceTree = "<group>"; };
+		FA4EDAB81FD984D0004CBC51 /* Petri.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Petri.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				FA2B117E1FD5DD7D005A84EA /* main.cpp */,
+				FA2B11851FD5DD8E005A84EA /* Arc.cpp */,
+				FA2B11861FD5DD8E005A84EA /* Arc.hpp */,
+				FA4EDAB11FD82BAA004CBC51 /* Tranzitie.cpp */,
+				FA4EDAB21FD82BAA004CBC51 /* Tranzitie.hpp */,
+				FA2B11881FD5DD9B005A84EA /* Locatie.cpp */,
+				FA2B11891FD5DD9B005A84EA /* Locatie.hpp */,
+				FA4EDAB41FD9847B004CBC51 /* PetriNetCoffee.cpp */,
+				FA4EDAB51FD9847B004CBC51 /* PetriNetCoffee.hpp */,
+				FA4EDAB71FD984D0004CBC51 /* Petri.cpp */,
+				FA4EDAB81FD984D0004CBC51 /* Petri.hpp */,
 			);
 			path = PetriNetCoffee;
 			sourceTree = "<group>";
@@ -119,6 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4EDAB91FD984D0004CBC51 /* Petri.cpp in Sources */,
+				FA4EDAB61FD9847B004CBC51 /* PetriNetCoffee.cpp in Sources */,
+				FA4EDAB31FD82BAA004CBC51 /* Tranzitie.cpp in Sources */,
+				FA2B118A1FD5DD9B005A84EA /* Locatie.cpp in Sources */,
+				FA2B11871FD5DD8E005A84EA /* Arc.cpp in Sources */,
 				FA2B117F1FD5DD7D005A84EA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
